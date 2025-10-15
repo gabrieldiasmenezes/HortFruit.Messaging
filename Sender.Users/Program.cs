@@ -20,7 +20,7 @@ await channel.ExchangeDeclareAsync(exchangeName, ExchangeType.Topic, durable: tr
 // Simulando dados do usuário
 var user = new
 {
-    nomeCompleto = "Gabriel Dias",
+    nomeCompleto = "João Gomes",
     endereco = "Rua das Flores, 123, São Paulo",
     RG = "12.345.678-9",
     CPF = "123.456.789-00",
